@@ -1,0 +1,33 @@
+﻿@page "/login"
+@rendermode InteractiveServer
+
+<h3>Login</h3>
+
+<div>
+    <label>Email address</label>
+    <input type="email" @bind='email' placeholder="Enter email" />
+    <label>Password</label>
+    <input type="password" @bind="password" placeholder="Enter password" />
+    <button class="btn btn-primary" @onclick="HandleSubmit">Login</button>
+</div>
+
+@code {
+    private string email = null;
+    private string password = null;
+
+    private void HandleSubmit()
+    {
+        if (email == "admin" && password == "1234")
+        {
+            navigationManager.NavigateTo("/event");
+        }
+        else if (email == "tourist" && password == "1234")
+        {
+            navigationManager.NavigateTo("/e");
+        }
+    }
+
+    [Inject]
+    private NavigationManager navigationManager { get; set; }
+}
+S

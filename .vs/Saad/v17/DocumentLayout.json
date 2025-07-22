@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\232423\\Downloads\\Saad\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C84AED5-53DE-4F05-8ED4-2063CC366E34}|Saad\\Saad.csproj|c:\\users\\232423\\downloads\\saad\\saad\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C84AED5-53DE-4F05-8ED4-2063CC366E34}|Saad\\Saad.csproj|solutionrelative:saad\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C84AED5-53DE-4F05-8ED4-2063CC366E34}|Saad\\Saad.csproj|c:\\users\\232423\\downloads\\saad\\saad\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C84AED5-53DE-4F05-8ED4-2063CC366E34}|Saad\\Saad.csproj|solutionrelative:saad\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C84AED5-53DE-4F05-8ED4-2063CC366E34}|Saad\\Saad.csproj|c:\\users\\232423\\downloads\\saad\\saad\\components\\pages\\event.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C84AED5-53DE-4F05-8ED4-2063CC366E34}|Saad\\Saad.csproj|solutionrelative:saad\\components\\pages\\event.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C84AED5-53DE-4F05-8ED4-2063CC366E34}|Saad\\Saad.csproj|c:\\users\\232423\\downloads\\saad\\saad\\components\\pages\\signup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C84AED5-53DE-4F05-8ED4-2063CC366E34}|Saad\\Saad.csproj|solutionrelative:saad\\components\\pages\\signup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C84AED5-53DE-4F05-8ED4-2063CC366E34}|Saad\\Saad.csproj|c:\\users\\232423\\downloads\\saad\\saad\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C84AED5-53DE-4F05-8ED4-2063CC366E34}|Saad\\Saad.csproj|solutionrelative:saad\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C84AED5-53DE-4F05-8ED4-2063CC366E34}|Saad\\Saad.csproj|c:\\users\\232423\\downloads\\saad\\saad\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C84AED5-53DE-4F05-8ED4-2063CC366E34}|Saad\\Saad.csproj|solutionrelative:saad\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\232423\\Downloads\\Saad\\Saad\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "Saad\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\232423\\Downloads\\Saad\\Saad\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "Saad\\Components\\Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T13:12:59.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Event.razor",
+              "DocumentMoniker": "C:\\Users\\232423\\Downloads\\Saad\\Saad\\Components\\Pages\\Event.razor",
+              "RelativeDocumentMoniker": "Saad\\Components\\Pages\\Event.razor",
+              "ToolTip": "C:\\Users\\232423\\Downloads\\Saad\\Saad\\Components\\Pages\\Event.razor",
+              "RelativeToolTip": "Saad\\Components\\Pages\\Event.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T13:02:30.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Signup.razor",
+              "DocumentMoniker": "C:\\Users\\232423\\Downloads\\Saad\\Saad\\Components\\Pages\\Signup.razor",
+              "RelativeDocumentMoniker": "Saad\\Components\\Pages\\Signup.razor",
+              "ToolTip": "C:\\Users\\232423\\Downloads\\Saad\\Saad\\Components\\Pages\\Signup.razor",
+              "RelativeToolTip": "Saad\\Components\\Pages\\Signup.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T13:02:08.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\232423\\Downloads\\Saad\\Saad\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Saad\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\232423\\Downloads\\Saad\\Saad\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "Saad\\Components\\Pages\\Login.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T12:59:10.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\232423\\Downloads\\Saad\\Saad\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Saad\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\232423\\Downloads\\Saad\\Saad\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Saad\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAN4AAAAAAAAAAAAAAPkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T12:58:38.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\232423\\Downloads\\Saad\\Saad\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "Saad\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\232423\\Downloads\\Saad\\Saad\\Models\\Event.cs",
+              "RelativeToolTip": "Saad\\Models\\Event.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T12:54:56.131Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

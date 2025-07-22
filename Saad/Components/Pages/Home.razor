@@ -1,0 +1,249 @@
+﻿@page "/"
+
+    
+    <style>
+        .navbar-brand {
+            font-weight: bold;
+            color: #333 !important;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .event-card {
+            border: none;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 300px;
+        }
+
+        .event-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .event-image {
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .safari-card {
+            background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);
+            color: white;
+        }
+
+        .safari-content {
+            padding: 20px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .safari-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .safari-subtitle {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            margin-bottom: 15px;
+        }
+
+        .safari-details {
+            font-size: 0.8rem;
+            opacity: 0.8;
+        }
+
+        .house-arrest-card {
+            background: linear-gradient(45deg, rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="%23222" width="400" height="300"/><circle fill="%23ff6b35" cx="200" cy="150" r="60"/></svg>');
+            background-size: cover;
+            color: white;
+        }
+
+        .house-arrest-content {
+            padding: 20px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        .house-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ff6b35;
+            margin-bottom: 10px;
+        }
+
+        .house-subtitle {
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .price-tag {
+            background: rgba(255,255,255,0.2);
+            padding: 8px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        .empower-card {
+            background: linear-gradient(135deg, #2d5a27 0%, #4a7c59 100%);
+            color: white;
+        }
+
+        .empower-content {
+            padding: 20px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        .empower-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #90EE90;
+            margin-bottom: 10px;
+        }
+
+        .empower-year {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #90EE90;
+            margin: 10px 0;
+        }
+
+        .empower-subtitle {
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+            color: #90EE90;
+        }
+
+        .search-container {
+            max-width: 400px;
+        }
+
+        .form-select, .form-control {
+            border-radius: 8px;
+        }
+
+        .page-title {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .page-subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+    </style>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-bookmark text-primary me-2"></i>bookme
+            </a>
+
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link me-3" href="#">Help</a>
+                <a class="nav-link me-3" href="#">Login</a>
+                <a class="btn btn-primary px-4" href="#">Sign up</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+       
+        <div class="row mb-4">
+            <div class="col-md-8">
+                <h1 class="page-title">Events</h1>
+                <p class="page-subtitle">Book the ticket of ongoing events</p>
+            </div>
+            <div class="col-md-4">
+                <div class="search-container">
+                    <div class="row g-2">
+                        <div class="col-5">
+                            <select class="form-select">
+                                <option>All</option>
+                                <option>Music</option>
+                                <option>Sports</option>
+                                <option>Tours</option>
+                            </select>
+                        </div>
+                        <div class="col-7">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card event-card safari-card">
+                    <div class="safari-content">
+                        <div>
+                            <div class="safari-title">SAFARI TOURIST TRAIN</div>
+                            <div class="safari-subtitle">ENJOY A MEMORABLE TRIP TO<br>ATTOCK KHURD</div>
+                        </div>
+                        <div class="safari-details">
+                            <small>DEPARTURE FROM RAWALPINDI TO ATTOCK KHURD EVERY SATURDAY<br>
+                            AT 08:00 AM AND RETURN AT 08:00 PM</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card event-card house-arrest-card">
+                    <div class="house-arrest-content">
+                        <div>
+                            <div class="house-title">HOUSE<br>ARREST</div>
+                            <div class="house-subtitle">COMEDY BY DANISH ALI</div>
+                        </div>
+                        <div>
+                            <div class="price-tag">
+                                Early Bird Discount<br>
+                                <span style="text-decoration: line-through;">Rs. 3000</span> Rs. 2000/-
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card event-card empower-card">
+                    <div class="empower-content">
+                        <div>
+                            <div class="empower-title">EMPOWER</div>
+                            <div class="empower-year">20<br>25</div>
+                            <div class="empower-subtitle">TOURNAMENT</div>
+                        </div>
+                        <div>
+                            <small>UNITY IN ACTION, IGNITING SPIRIT</small><br>
+                            <small>FINAL<br>11th, 16th, 18th, 23rd<br>JANUARY &nbsp;&nbsp;&nbsp; GIRL POWER</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
